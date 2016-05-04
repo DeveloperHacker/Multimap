@@ -1,5 +1,8 @@
 import java.util.*
 
+//** ** Created by DeveloperHacker ** **//
+//* https://github.com/DeveloperHacker *//
+
 abstract class AbstractMutableMultimap<K : Any, V, C : MutableCollection<V>>(
         private val empty: () -> C
 ) : AbstractMultimap<K, V, C>(), MutableMultimap<K, V, C> {

@@ -1,5 +1,8 @@
 import java.util.*
 
+//** ** Created by DeveloperHacker ** **//
+//* https://github.com/DeveloperHacker *//
+
 class HashMultimap<K : Any, V, C : MutableCollection<V>> : AbstractMutableMultimap<K, V, C> {
 
     override val map: MutableMap<K, C>

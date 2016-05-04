@@ -1,3 +1,7 @@
+
+//** ** Created by DeveloperHacker ** **//
+//* https://github.com/DeveloperHacker *//
+
 interface MutableMultimap<K : Any, V, C : MutableCollection<V>> : Multimap<K, V, C> {
 
     fun put(key: K, value: V): Boolean

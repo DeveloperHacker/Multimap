@@ -1,5 +1,8 @@
 import java.util.*
 
+//** ** Created by DeveloperHacker ** **//
+//* https://github.com/DeveloperHacker *//
+
 abstract class AbstractMultimap<K : Any, V, C : Collection<V>> : Multimap<K, V, C> {
 
     abstract protected val map: Map<K, C>

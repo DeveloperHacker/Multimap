@@ -1,3 +1,7 @@
+
+//** ** Created by DeveloperHacker ** **//
+//* https://github.com/DeveloperHacker *//
+
 interface Multimap<K : Any, V, C : Collection<V>> {
 
     val size: Int
